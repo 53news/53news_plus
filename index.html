@@ -1,6 +1,84 @@
-    <header>  
-        <h1 class="site-title">我的网站</h1>  
-        <p class="site-subtitle">探索未知的精彩</p>  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>简单导航页</title>  
+    <style>
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    background-color: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+}  
+  
+.site-title {  
+    font-size: 2em;  
+    margin: 0;  
+}  
+  
+.site-subtitle {  
+    font-size: 1em;  
+    color: #aaa;  
+    margin: 10px 0 0 0;  
+}  
+  
+.nav-links {  
+    list-style-type: none;  
+    margin: 20px 0 0 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+}  
+  
+.nav-links li {  
+    margin: 0 10px;  
+}  
+  
+.nav-links li a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.nav-links li a:hover {  
+    background-color: #555;  
+}  
+  
+main {  
+    padding: 20px;  
+}  
+  
+.intro, .content, .contact {  
+    margin-bottom: 20px;  
+}  
+  
+.contact-link {  
+    color: #007BFF;  
+    text-decoration: none;  
+}  
+  
+.contact-link:hover {  
+    text-decoration: underline;  
+}
+	</style>
+</head>  
+<body>  
+        <header>  
+        <h1 class="site-title">53TV</h1>  
+        <p class="site-subtitle">五三在线/唐山市雷锋小学五三班官网</p>  
         <nav>  
             <ul class="nav-links">  
                 <li><a href="#">首页</a></li>  
@@ -29,3 +107,7 @@
             <a href="mailto:info@example.com" class="contact-link">发送邮件</a>  
         </section>  
     </main>
+  
+    <script src="script.js"></script>  
+</body>  
+</html>
