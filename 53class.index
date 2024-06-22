@@ -1,0 +1,110 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>简单导航页</title>  
+    <style>
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    background-color: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+}  
+  
+.site-title {  
+    font-size: 2em;  
+    margin: 0;  
+}  
+  
+.site-subtitle {  
+    font-size: 1em;  
+    color: #aaa;  
+    margin: 10px 0 0 0;  
+}  
+  
+.nav-links {  
+    list-style-type: none;  
+    margin: 20px 0 0 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+}  
+  
+.nav-links li {  
+    margin: 0 10px;  
+}  
+  
+.nav-links li a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.nav-links li a:hover {  
+    background-color: #555;  
+}  
+  
+main {  
+    padding: 20px;  
+}  
+  
+.intro, .content, .contact {  
+    margin-bottom: 20px;  
+}  
+  
+.contact-link {  
+    color: #007BFF;  
+    text-decoration: none;  
+}  
+  
+.contact-link:hover {  
+    text-decoration: underline;  
+}
+	</style>
+</head>  
+<body>  
+        <header>  
+        <h1 class="site-title">53TV</h1>  
+        <p class="site-subtitle">五三在线官网</p>  
+        <nav>  
+            <ul class="nav-links">  
+                <li><a href="#">======第五十三号开发者网正在开发======</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+  
+    <main>  
+        <section class="intro">  
+            <h2>欢迎来到我们的网站！</h2>  
+            <p>快速前往：</p>  
+			<a href="53news.github.io/53class.html" class="contact-link">班级官网</a>
+        </section>  
+  
+        <section class="content">  
+            <h3>最新消息</h3>  
+            <p>这里是我们最新的新闻和更新。</p>  
+        </section>  
+  
+        <section class="contact">  
+            <h3>联系我们</h3>  
+            <p>如果您有任何问题或需要更多信息，请通过以下方式与我们联系。</p>  
+            <a href="ysqyyyy@126.com" class="contact-link">发送邮件</a>  
+        </section>  
+    </main>
+  
+    <script src="script.js"></script>  
+</body>  
+</html>
